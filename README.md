@@ -11,10 +11,10 @@ A revised version of the esteemed Man-killer Dog Action RPG
 
 
 ## Todo
-- [] Finish the tutorial
-- [] Create levels
--   [] Build levels
--   [] Add enemies
-- [] Create boss
--   []Sprite
--   []Code the boss
+- [ ] Finish the tutorial
+- [ ] Create levels
+-   [ ] Build levels
+-   [ ] Add enemies
+- [ ] Create boss
+-   [ ]Sprite
+-   [ ]Code the boss
