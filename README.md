@@ -13,8 +13,8 @@ A revised version of the esteemed Man-killer Dog Action RPG
 ## Todo
 - [ ] Finish the tutorial
 - [ ] Create levels
--   [ ] Build levels
--   [ ] Add enemies
+- [ ] Build levels
+- [ ] Add enemies
 - [ ] Create boss
--   [ ] Create boss sprite
--   [ ] Code the boss
+- [ ] Create boss sprite
+- [ ] Code the boss
