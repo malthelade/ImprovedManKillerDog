@@ -26,3 +26,4 @@ A revised version of the esteemed Man-killer Dog Action RPG
 ## Ideas
 - Abilities
 - Health pickups
+- Make it darksouls
