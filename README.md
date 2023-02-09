@@ -9,6 +9,9 @@ A revised version of the esteemed Man-killer Dog Action RPG
 
 # Projektstyring
 
+## Completed
+
+## In progress
 
 ## Todo
 - [ ] Finish the tutorial
@@ -18,3 +21,8 @@ A revised version of the esteemed Man-killer Dog Action RPG
 - [ ] Create boss
     - [ ] Create boss sprite
     - [ ] Code the boss
+        - [ ] Boss stages and abilities
+
+## Ideas
+- Abilities
+- Health pickups
