@@ -17,4 +17,4 @@ A revised version of the esteemed Man-killer Dog Action RPG
 -   [ ] Add enemies
 - [ ] Create boss
 -   [ ] Create boss sprite
--   [ ]Code the boss
+-   [ ] Code the boss
