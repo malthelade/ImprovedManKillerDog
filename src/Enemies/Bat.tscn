@@ -79,7 +79,7 @@ max_health = 2
 [node name="PlayerDetectionZone" parent="." instance=ExtResource( 6 )]
 
 [node name="CollisionShape2D" parent="PlayerDetectionZone" index="0"]
-modulate = Color( 1, 1, 1, 0.223529 )
+modulate = Color( 1, 1, 1, 0.392157 )
 shape = SubResource( 9 )
 
 [node name="Hitbox" parent="." instance=ExtResource( 7 )]
