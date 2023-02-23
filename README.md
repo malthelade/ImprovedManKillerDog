@@ -12,9 +12,8 @@ A revised version of the esteemed Man-killer Dog Action RPG
 ## Completed
 
 ## In progress
-
-## Todo
 - [ ] Finish the tutorial
+## Todo
 - [ ] Create levels
     - [ ] Build levels
     - [ ] Add enemies
