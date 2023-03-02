@@ -67,6 +67,7 @@ func roll_state(delta):
 	velocity = roll_vector * ROLL_SPEED
 	animationState.travel("Roll")
 	move()
+	
 
 func attack_state(delta):
 	velocity = Vector2.ZERO
