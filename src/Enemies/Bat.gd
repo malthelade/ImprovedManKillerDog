@@ -95,7 +95,7 @@ func _on_Stats_no_health():
 	get_parent().add_child(enemyDeathEffect)
 	enemyDeathEffect.global_position = global_position
 	
-	spawn_potion(0.15)
+	spawn_potion(0)
 	
 
 
@@ -103,6 +103,7 @@ func _on_Stats_no_health():
 func spawn_potion(threshold):
 	
 	if randf()>threshold:
-		var potionSpawn = PotionSpawn.instance()
-		get_parent().add_child(potionSpawn)
-		potionSpawn.global_position = global_position
+		var potion = PotionSpawn.instance()
+		get_parent().add_child(potion)
+		potion.set_type(int(rand_range(1,64)))
+		potion.global_position = global_position
