@@ -96,7 +96,7 @@ func _on_Stats_no_health():
 	var enemyDeathEffect = EnemyDeathEffect.instance()
 	get_parent().add_child(enemyDeathEffect)
 	enemyDeathEffect.global_position = global_position
-
+	spawn_potion(0.90)
 
 func _on_Hurtbox_invincibility_started():
 	animationPlayer.play("Start")
@@ -105,7 +105,7 @@ func _on_Hurtbox_invincibility_started():
 func _on_Hurtbox_invincibility_ended():
 	animationPlayer.play("Stop")
 	
-	spawn_potion(0)
+	
 	
 
 
