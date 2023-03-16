@@ -10,9 +10,10 @@ A revised version of the esteemed Man-killer Dog Action RPG
 # Projektstyring
 
 ## Completed
+- [x] Finish the tutorial
 
 ## In progress
-- [ ] Finish the tutorial
+
 ## Todo
 - [ ] Create levels
     - [ ] Build levels
