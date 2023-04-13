@@ -110,7 +110,6 @@ func _on_Hurtbox_invincibility_ended():
 
 
 func spawn_potion(threshold):
-	
 	if randf()>threshold:
 		var potion = PotionSpawn.instance()
 		get_parent().add_child(potion)
