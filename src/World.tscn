@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 [gd_scene load_steps=56 format=2]
 
 [ext_resource path="res://Enemies/Bat.tscn" type="PackedScene" id=1]
-=======
 [gd_scene load_steps=57 format=2]
 
 [ext_resource path="res://Quaken/Quaken.tscn" type="PackedScene" id=1]
->>>>>>> ee9142dffbe4269406e4ba0efa78f770fbdf9910
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://World/GrassBackground.png" type="Texture" id=3]
 [ext_resource path="res://World/DirtTileset.png" type="Texture" id=4]
