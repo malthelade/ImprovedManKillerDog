@@ -1,8 +1,6 @@
 extends KinematicBody2D
 
 const PlayerHurtSound = preload("res://Player/PlayerHurtSound.tscn")
-onready var health = get_node("/root/PlayerStats").get("health")
-
 
 export var ACCELERATION = 500
 export var MAX_SPEED = 80
@@ -26,8 +24,6 @@ onready var animationState = animationTree.get("parameters/playback")
 onready var swordHitbox = $HitboxPivot/SwordHitbox
 onready var hurtbox = $Hurtbox
 onready var blinkAnimationPlayer = $BlinkAnimationPlayer
-
-export var inventory = []
 
 func _ready():
 	stats.connect("no_health", self, "queue_free")
@@ -69,13 +65,6 @@ func move_state(delta):
 	
 	if Input.is_action_just_pressed("attack"):
 		state = ATTACK
-		
-	if Input.is_action_just_pressed("Useitem"):
-		inventory.pop_front()
-		health += 1
-		
-	if inventory:
-		print("hi")
 
 func roll_state():
 	velocity = roll_vector * ROLL_SPEED
@@ -110,6 +99,3 @@ func _on_Hurtbox_invincibility_started():
 
 func _on_Hurtbox_invincibility_ended():
 	blinkAnimationPlayer.play("Stop")
-
-
-		

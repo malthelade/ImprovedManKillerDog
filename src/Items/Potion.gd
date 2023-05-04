@@ -4,8 +4,6 @@ var stats = PlayerStats
 var health_increase = 1
 onready var sprite = $Sprite
 
- 
-
 func _on_Area2D_body_entered(_body):
 	stats.health += health_increase
 	queue_free()
