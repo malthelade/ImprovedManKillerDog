@@ -528,7 +528,7 @@ remote_path = NodePath("../../../Camera2D")
 position = Vector2( 225, 112 )
 
 [node name="Quaken" parent="YSort" instance=ExtResource( 1 )]
-position = Vector2( 83, 36 )
+position = Vector2( 88, 51 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 

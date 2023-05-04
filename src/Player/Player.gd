@@ -15,7 +15,7 @@ enum {
 
 var state = MOVE
 var velocity = Vector2.ZERO
-var roll_vector = Vector2.LEFT
+var roll_vector = Vector2.DOWN
 var stats = PlayerStats
 
 onready var animationPlayer = $AnimationPlayer #Makes sure the animationplayer before the player is ready
